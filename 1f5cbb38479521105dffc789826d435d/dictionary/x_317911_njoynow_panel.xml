@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f7cfbbbc479521105dffc789826d4336" label="Panel" max_length="40" name="x_317911_njoynow_panel" type="collection">
+        <element label="Interview" max_length="32" name="interview" reference="x_317911_njoynow_interview" type="reference"/>
+        <element label="Panelist" max_length="32" name="panelist" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="interview"/>
+        </index>
+        <index name="index2">
+            <element name="panelist"/>
+        </index>
+    </element>
+</database>

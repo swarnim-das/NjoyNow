@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_1" table="x_317911_njoynow_interview" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_choice_1</element>
+            <name>x_317911_njoynow_interview</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:15</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_choice_1</sys_name>
+            <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+            <sys_update_name>sys_choice_x_317911_njoynow_interview_u_choice_1</sys_update_name>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:15</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Technical L1</label>
+            <language>en</language>
+            <name>x_317911_njoynow_interview</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:15</sys_updated_on>
+            <value>technical l1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Technical L2</label>
+            <language>en</language>
+            <name>x_317911_njoynow_interview</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:15</sys_updated_on>
+            <value>technical l2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Techno Managerial L2</label>
+            <language>en</language>
+            <name>x_317911_njoynow_interview</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:15</sys_updated_on>
+            <value>techno managerial l2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Managerial L2</label>
+            <language>en</language>
+            <name>x_317911_njoynow_interview</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:15</sys_updated_on>
+            <value>managerial l2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Managerial L3</label>
+            <language>en</language>
+            <name>x_317911_njoynow_interview</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:15</sys_updated_on>
+            <value>managerial l3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR</label>
+            <language>en</language>
+            <name>x_317911_njoynow_interview</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:15</sys_updated_on>
+            <value>hr</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

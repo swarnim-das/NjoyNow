@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1baff7bc479521105dffc789826d43dd" label="Interview" max_length="40" name="x_317911_njoynow_interview" type="collection">
+        <element label="Job Application" max_length="32" name="job_application" reference="x_317911_njoynow_job_application" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Technical L1" sequence="0" value="technical l1"/>
+                <element inactive_on_update="false" label="Technical L2" sequence="1" value="technical l2"/>
+                <element inactive_on_update="false" label="Techno Managerial L2" sequence="2" value="techno managerial l2"/>
+                <element inactive_on_update="false" label="Managerial L2" sequence="3" value="managerial l2"/>
+                <element inactive_on_update="false" label="Managerial L3" sequence="4" value="managerial l3"/>
+                <element inactive_on_update="false" label="HR" sequence="5" value="hr"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Backlog" sequence="0" value="backlog"/>
+                <element inactive_on_update="false" label="Scheduled" sequence="1" value="scheduled"/>
+                <element inactive_on_update="false" label="Rescheduled" sequence="2" value="rescheduled"/>
+                <element inactive_on_update="false" label="No Show" sequence="3" value="no show"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Mode" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="F2F" sequence="0" value="f2f"/>
+                <element inactive_on_update="false" label="Virtual" sequence="1" value="virtual"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Selected" max_length="40" name="u_choice_9" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="On Hold" sequence="2" value="on hold"/>
+            </choice>
+        </element>
+        <element label="Average Rating" max_length="15" name="u_decimal_8" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Scheduled Date/Time" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="F2F Interview Location" max_length="40" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Virtual Meeting Invite Link" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Virtual Meeting Recording Link" max_length="40" name="u_string_7" type="string"/>
+        <index name="index">
+            <element name="job_application"/>
+        </index>
+    </element>
+</database>

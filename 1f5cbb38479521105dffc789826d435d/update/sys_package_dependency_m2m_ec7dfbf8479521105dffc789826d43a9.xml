@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Service Management Basics" source="com.snc.service">6157532e30151110c0a0ea25b2816b79</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>pizza.dough</sys_created_by>
+        <sys_created_on>2023-02-26 17:46:38</sys_created_on>
+        <sys_id>ec7dfbf8479521105dffc789826d43a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_updated_by>pizza.dough</sys_updated_by>
+        <sys_updated_on>2023-02-26 17:46:38</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

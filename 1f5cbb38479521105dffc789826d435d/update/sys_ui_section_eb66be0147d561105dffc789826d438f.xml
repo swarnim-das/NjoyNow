@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="eb66be0147d561105dffc789826d438f" sys_domain="global" table="x_317911_njoynow_interview" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_application</element>
+            <position>0</position>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:16</sys_created_on>
+            <sys_id>ed419ac447a521105dffc789826d43ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_1</element>
+            <position>1</position>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:16</sys_created_on>
+            <sys_id>65419ac447a521105dffc789826d43f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_4</element>
+            <position>2</position>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:16</sys_created_on>
+            <sys_id>e5419ac447a521105dffc789826d43f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_6</element>
+            <position>3</position>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:16</sys_created_on>
+            <sys_id>69419ac447a521105dffc789826d43f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_decimal_8</element>
+            <position>4</position>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:16</sys_created_on>
+            <sys_id>e9419ac447a521105dffc789826d43f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:16</sys_created_on>
+            <sys_id>6d419ac447a521105dffc789826d43f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_date_time_2</element>
+            <position>6</position>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:16</sys_created_on>
+            <sys_id>ed419ac447a521105dffc789826d43f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_3</element>
+            <position>7</position>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:16</sys_created_on>
+            <sys_id>61419ac447a521105dffc789826d43f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_5</element>
+            <position>8</position>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:16</sys_created_on>
+            <sys_id>e1419ac447a521105dffc789826d43f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_7</element>
+            <position>9</position>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:16</sys_created_on>
+            <sys_id>65419ac447a521105dffc789826d43f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_9</element>
+            <position>10</position>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:16</sys_created_on>
+            <sys_id>e5419ac447a521105dffc789826d43f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_317911_njoynow_interview</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-02-27 07:14:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb66be0147d561105dffc789826d438f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_317911_njoynow_interview</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+            <sys_update_name>sys_ui_section_eb66be0147d561105dffc789826d438f</sys_update_name>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-02-27 07:14:50</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

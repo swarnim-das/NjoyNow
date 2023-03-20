@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_string_6</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>priya.harshitha</sys_created_by>
+        <sys_created_on>2023-03-10 06:59:15</sys_created_on>
+        <sys_id>723c9728472121105dffc789826d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_string_6</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_723c9728472121105dffc789826d4307</sys_update_name>
+        <sys_updated_by>priya.harshitha</sys_updated_by>
+        <sys_updated_on>2023-03-10 06:59:15</sys_updated_on>
+        <table>x_317911_njoynow_interview</table>
+        <ui_policy display_value="If Mode is F2F only F2F Interview Location should visible">45eb1328472121105dffc789826d434e</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

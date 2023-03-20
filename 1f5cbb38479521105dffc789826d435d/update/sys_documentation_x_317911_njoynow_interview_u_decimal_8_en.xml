@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_decimal_8" label="Average Rating" language="en" table="x_317911_njoynow_interview">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_decimal_8</element>
+            <help/>
+            <hint/>
+            <label>Average Rating</label>
+            <language>en</language>
+            <name>x_317911_njoynow_interview</name>
+            <plural>Average Ratings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>priya.harshitha</sys_created_by>
+            <sys_created_on>2023-03-08 12:14:14</sys_created_on>
+            <sys_id>45419ac447a521105dffc789826d4375</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Average Rating</sys_name>
+            <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+            <sys_update_name>sys_documentation_x_317911_njoynow_interview_u_decimal_8_en</sys_update_name>
+            <sys_updated_by>priya.harshitha</sys_updated_by>
+            <sys_updated_on>2023-03-08 12:14:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

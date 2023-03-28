@@ -12,6 +12,7 @@
         </element>
         <element label="Job" max_length="32" name="job" reference="x_317911_njoynow_job" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Joining Date" max_length="40" name="joining_date" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Offered CTC" max_length="15" name="offered_ctc" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="yet to be determined" label="Position Offered" max_length="40" name="position_offered" type="string">
             <choice>

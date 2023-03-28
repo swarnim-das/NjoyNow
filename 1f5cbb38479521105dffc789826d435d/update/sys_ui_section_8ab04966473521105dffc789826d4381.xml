@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="8ab04966473521105dffc789826d4381" sys_domain="global" table="x_317911_njoynow_panel" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_user</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-28 12:54:44</sys_created_on>
+            <sys_id>0d5a996247b521105dffc789826d431b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_panel" sys_domain="global" view="Default view">8ab04966473521105dffc789826d4381</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-28 12:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rating</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-28 12:54:44</sys_created_on>
+            <sys_id>815a996247b521105dffc789826d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_panel" sys_domain="global" view="Default view">8ab04966473521105dffc789826d4381</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-28 12:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-28 12:54:44</sys_created_on>
+            <sys_id>055a996247b521105dffc789826d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_panel" sys_domain="global" view="Default view">8ab04966473521105dffc789826d4381</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-28 12:54:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_317911_njoynow_interview</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-28 12:54:44</sys_created_on>
+            <sys_id>855a996247b521105dffc789826d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_panel" sys_domain="global" view="Default view">8ab04966473521105dffc789826d4381</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-28 12:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-28 12:54:44</sys_created_on>
+            <sys_id>095a996247b521105dffc789826d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_panel" sys_domain="global" view="Default view">8ab04966473521105dffc789826d4381</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-28 12:54:44</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>review</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-28 12:54:44</sys_created_on>
+            <sys_id>895a996247b521105dffc789826d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_panel" sys_domain="global" view="Default view">8ab04966473521105dffc789826d4381</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-28 12:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_317911_njoynow_panel</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-28 11:02:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ab04966473521105dffc789826d4381</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_317911_njoynow_panel</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+            <sys_update_name>sys_ui_section_8ab04966473521105dffc789826d4381</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-28 11:02:50</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -4,8 +4,13 @@
         <array>false</array>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return 0;  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Average Rating</column_label>
@@ -52,15 +57,15 @@
         <sys_policy/>
         <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
         <sys_update_name>sys_dictionary_x_317911_njoynow_interview_u_decimal_8</sys_update_name>
-        <sys_updated_by>priya.harshitha</sys_updated_by>
-        <sys_updated_on>2023-03-08 12:14:14</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-28 11:15:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>

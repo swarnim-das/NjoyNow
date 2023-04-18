@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="45500126473521105dffc789826d43ec" label="Panel" max_length="40" name="x_317911_njoynow_panel" type="collection">
+        <element default="0" hint="Rating Description:&#13;&#10;&#13;&#10;Level 1: Exposure to Basic Concepts and Theoretical Knowledge - Low Demonstrated Capability on the Skill.&#13;&#10;&#13;&#10;Level 2: Formal Training with Class Room Project - Average Demonstrated Capability on the Skill.&#13;&#10;&#13;&#10;Level 3: Can Solve Medium Complex Problems, Knows Advance Features - Good Demonstrated Capability on the Skill.&#13;&#10;&#13;&#10;Level 4: Can Solve Complex Problems, Experience of Working on Advanced Features and can Guide and Train Others -  Very Good Demonstrated Capability on the skill.&#13;&#10;&#13;&#10;Level 5: Can Provide Practically all Solutions and can Play a Role of Technical/Functional Expert - Demonstrated High Level Capability on the Skill." label="Rating" max_length="20" name="rating" type="decimal"/>
+        <element label="Review" max_length="65536" name="review" type="html"/>
+        <element attributes="encode_utf8=false" display="true" label="Panelist" max_length="32" name="sys_user" reference="sys_user" reference_qual="active=true^locked_out=false^web_service_access_only=false^nameISNOTEMPTY^EQ" reference_qual_condition="active=true^locked_out=false^web_service_access_only=false^nameISNOTEMPTY^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Interview" max_length="32" name="x_317911_njoynow_interview" reference="x_317911_njoynow_interview" reference_floats="true" type="reference"/>
+        <index name="index">
+            <element name="sys_user"/>
+        </index>
+        <index name="index2">
+            <element name="x_317911_njoynow_interview"/>
+        </index>
+    </element>
+</database>

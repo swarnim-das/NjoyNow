@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>rating</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Limiting the rating values from 0 to 5</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    if (parseFloat(newValue) < 1.0 || parseFloat(newValue) > 5) {
+        g_form.clearValue('rating');
+        g_form.showFieldMsg('rating','Please enter a value between 1 and 5','error');
+    }
+    if (parseFloat(newValue) >= 1.0 && parseFloat(newValue) <= 5) {
+        g_form.clearMessages();
+    }
+
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>priya.harshitha</sys_created_by>
+        <sys_created_on>2023-03-28 14:03:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9c36e5ee47b521105dffc789826d4303</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Limiting the rating values from 0 to 5</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_script_client_9c36e5ee47b521105dffc789826d4303</sys_update_name>
+        <sys_updated_by>priya.harshitha</sys_updated_by>
+        <sys_updated_on>2023-03-28 14:46:20</sys_updated_on>
+        <table>x_317911_njoynow_panel</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

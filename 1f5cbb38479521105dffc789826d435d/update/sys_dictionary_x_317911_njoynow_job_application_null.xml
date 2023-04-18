@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <attributes/>
-        <audit>false</audit>
+        <audit>true</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
@@ -52,10 +52,10 @@
         <sys_policy/>
         <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
         <sys_update_name>sys_dictionary_x_317911_njoynow_job_application_null</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-03-09 10:50:21</sys_updated_on>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-18 09:17:39</sys_updated_on>
         <table_reference>false</table_reference>
-        <text_index>false</text_index>
+        <text_index>true</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>

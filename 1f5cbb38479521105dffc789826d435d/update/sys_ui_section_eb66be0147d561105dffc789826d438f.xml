@@ -3,168 +3,112 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-28 09:55:55</sys_created_on>
-            <sys_id>3961782647f121105dffc789826d4365</sys_id>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-17 15:28:04</sys_created_on>
+            <sys_id>263db48547d621105dffc789826d4344</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-28 09:55:55</sys_updated_on>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-17 15:28:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>job_application</element>
             <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-28 09:55:55</sys_created_on>
-            <sys_id>b961782647f121105dffc789826d4365</sys_id>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-17 15:28:04</sys_created_on>
+            <sys_id>a63db48547d621105dffc789826d4344</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-28 09:55:55</sys_updated_on>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-17 15:28:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_choice_1</element>
+            <element>job_application.candidate</element>
             <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-28 09:55:55</sys_created_on>
-            <sys_id>3d61782647f121105dffc789826d4365</sys_id>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-17 15:28:04</sys_created_on>
+            <sys_id>2a3db48547d621105dffc789826d4344</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-28 09:55:55</sys_updated_on>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-17 15:28:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_choice_4</element>
+            <element>type</element>
             <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-28 09:55:55</sys_created_on>
-            <sys_id>bd61782647f121105dffc789826d4365</sys_id>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-17 15:28:04</sys_created_on>
+            <sys_id>aa3db48547d621105dffc789826d4344</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-28 09:55:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_6</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-28 09:55:55</sys_created_on>
-            <sys_id>3161782647f121105dffc789826d4366</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-28 09:55:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_decimal_8</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-28 09:55:55</sys_created_on>
-            <sys_id>b161782647f121105dffc789826d4366</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-28 09:55:55</sys_updated_on>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-17 15:28:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-28 09:55:55</sys_created_on>
-            <sys_id>3561782647f121105dffc789826d4366</sys_id>
+            <position>4</position>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-17 15:28:04</sys_created_on>
+            <sys_id>2e3db48547d621105dffc789826d4344</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-28 09:55:55</sys_updated_on>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-17 15:28:04</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_glide_date_time_2</element>
+            <element>state</element>
+            <position>5</position>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-17 15:28:04</sys_created_on>
+            <sys_id>ae3db48547d621105dffc789826d4344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-17 15:28:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>avg_rating</element>
+            <position>6</position>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-17 15:28:04</sys_created_on>
+            <sys_id>223db48547d621105dffc789826d4345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-17 15:28:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>result</element>
             <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-28 09:55:55</sys_created_on>
-            <sys_id>b561782647f121105dffc789826d4366</sys_id>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-17 15:28:04</sys_created_on>
+            <sys_id>a23db48547d621105dffc789826d4345</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-28 09:55:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_choice_3</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-28 09:55:55</sys_created_on>
-            <sys_id>3961782647f121105dffc789826d4366</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-28 09:55:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_5</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-28 09:55:55</sys_created_on>
-            <sys_id>b961782647f121105dffc789826d4366</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-28 09:55:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_7</element>
-            <position>10</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-28 09:55:55</sys_created_on>
-            <sys_id>3d61782647f121105dffc789826d4366</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-28 09:55:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_choice_9</element>
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-28 09:55:55</sys_created_on>
-            <sys_id>bd61782647f121105dffc789826d4366</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-28 09:55:55</sys_updated_on>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-17 15:28:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

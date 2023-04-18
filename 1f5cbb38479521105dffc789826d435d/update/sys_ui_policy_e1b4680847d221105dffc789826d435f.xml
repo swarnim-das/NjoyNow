@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_317911_njoynow_job_application">interview_eligibilityINyes,no^EQ<item display_value="yes,no" endquery="false" field="interview_eligibility" goto="false" newquery="false" operator="IN" or="false" value="yes,no"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>false</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	if(g_form.getValue('interview_eligibility') == 'no'){
+		g_form.setValue('state', 5);
+	}
+}]]></script_true>
+        <set_values/>
+        <short_description>Comments are mandatory on updating the Interview Eligibility and Reject application if No</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-14 11:09:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1b4680847d221105dffc789826d435f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Comments are mandatory on updating the Interview Eligibility and Reject application if No</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_ui_policy_e1b4680847d221105dffc789826d435f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 08:37:26</sys_updated_on>
+        <table>x_317911_njoynow_job_application</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

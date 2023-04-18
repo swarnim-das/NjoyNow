@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="1baff7bc479521105dffc789826d43dd" label="Interview" max_length="40" name="x_317911_njoynow_interview" type="collection">
+    <element db_object_id="1baff7bc479521105dffc789826d43dd" label="Interview" max_length="40" name="x_317911_njoynow_interview" text_index="true" type="collection">
+        <element label="Average Rating" max_length="20" name="avg_rating" read_only="true" type="decimal"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
+        <element label="F2F Interview Location" max_length="600" name="f2f_location" type="string"/>
         <element label="Job Application" max_length="32" name="job_application" reference="x_317911_njoynow_job_application" type="reference"/>
+        <element label="Virtual Meeting Invite" max_length="1024" name="meeting_invite" type="url"/>
+        <element label="Virtual Meeting Recording" max_length="1024" name="meeting_recording" type="url"/>
+        <element choice="1" label="Mode" max_length="40" name="mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="F2F" sequence="0" value="f2f"/>
+                <element inactive_on_update="false" label="Virtual" sequence="1" value="virtual"/>
+                <element inactive="true" inactive_on_update="true" label="Mobile" sequence="2" value="mobile"/>
+            </choice>
+        </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="u_choice_1" type="string">
+        <element label="Overall Review" max_length="8000" name="overall_review" read_only="true" type="html"/>
+        <element choice="1" label="Result" max_length="40" name="result" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Selected" sequence="0" value="selected"/>
+                <element inactive_on_update="false" label="Not Selected" sequence="1" value="not_selected"/>
+                <element inactive_on_update="false" label="On Hold" sequence="2" value="on hold"/>
+                <element inactive_on_update="false" label="Recommended for Future Consideration" sequence="3" value="future_consideration"/>
+                <element inactive_on_update="false" label="Recommended for Other Open Positions" sequence="4" value="recommended_other_position"/>
+            </choice>
+        </element>
+        <element label="Scheduled Date/Time" max_length="40" name="scheduled_date_time" type="glide_date_time"/>
+        <element choice="3" default="backlog" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Backlog" sequence="0" value="backlog"/>
+                <element inactive_on_update="false" label="Scheduled" sequence="1" value="scheduled"/>
+                <element inactive_on_update="false" label="Rescheduled" sequence="2" value="rescheduled"/>
+                <element inactive_on_update="false" label="No Show" sequence="3" value="no show"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+            </choice>
+        </element>
+        <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Initiation" sequence="-1" value="initiation"/>
                 <element inactive_on_update="false" label="Technical L1" sequence="0" value="technical l1"/>
@@ -13,36 +45,6 @@
                 <element inactive_on_update="false" label="HR" sequence="5" value="hr"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_choice_3" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Backlog" sequence="0" value="backlog"/>
-                <element inactive_on_update="false" label="Scheduled" sequence="1" value="scheduled"/>
-                <element inactive_on_update="false" label="Rescheduled" sequence="2" value="rescheduled"/>
-                <element inactive_on_update="false" label="No Show" sequence="3" value="no show"/>
-                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
-            </choice>
-        </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Mode" max_length="40" name="u_choice_4" type="string">
-            <choice>
-                <element inactive_on_update="false" label="F2F" sequence="0" value="f2f"/>
-                <element inactive_on_update="false" label="Virtual" sequence="1" value="virtual"/>
-                <element inactive_on_update="false" label="Mobile" sequence="2" value="mobile"/>
-            </choice>
-        </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Result" max_length="100" name="u_choice_9" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Selected" sequence="0" value="selected"/>
-                <element inactive_on_update="false" label="Not Selected" sequence="1" value="not_selected"/>
-                <element inactive_on_update="false" label="On Hold" sequence="2" value="on hold"/>
-                <element inactive_on_update="false" label="Recommended for Future Consideration" sequence="3" value="future_consideration"/>
-                <element inactive_on_update="false" label="Recommended for Other Open Positions" sequence="4" value="recommended_other_position"/>
-            </choice>
-        </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return 0;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Average Rating" max_length="15" name="u_decimal_8" type="decimal" virtual="true"/>
-        <element attributes="edge_encryption_enabled=true" label="Scheduled Date/Time" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" label="F2F Interview Location" max_length="600" name="u_string_5" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Virtual Meeting Invite Link" max_length="40" name="u_string_6" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Virtual Meeting Recording Link" max_length="40" name="u_string_7" type="string"/>
         <index name="index">
             <element name="job_application"/>
         </index>

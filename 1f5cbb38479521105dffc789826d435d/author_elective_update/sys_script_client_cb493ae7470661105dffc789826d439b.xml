@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_choice_4</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide fields based on Mode</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   
+        g_form.setDisplay('u_string_5', false);
+        g_form.setDisplay('u_string_6', false);
+        g_form.setDisplay('u_string_7', false);
+
+    if (newValue == 'f2f') {
+        g_form.setDisplay('u_string_5', true);
+    }
+    if (newValue == 'virtual') {
+        g_form.setDisplay('u_string_6', true);
+        g_form.setDisplay('u_string_7', true);
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-13 08:45:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cb493ae7470661105dffc789826d439b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Hide fields based on Mode</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_script_client_cb493ae7470661105dffc789826d439b</sys_update_name>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-14 07:44:03</sys_updated_on>
+        <table>x_317911_njoynow_interview</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</application>
+        <file_path/>
+        <instance_id>ca629802db0b2c10431011f8489619a2</instance_id>
+        <instance_name>dev108126</instance_name>
+        <name>sys_script_client_cb493ae7470661105dffc789826d439b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_choice_4&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Hide fields based on Mode&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   
+        g_form.setDisplay('u_string_5', false);
+        g_form.setDisplay('u_string_6', false);
+        g_form.setDisplay('u_string_7', false);
+
+    if (newValue == 'f2f') {
+        g_form.setDisplay('u_string_5', true);
+    }
+    if (newValue == 'virtual') {
+        g_form.setDisplay('u_string_6', true);
+        g_form.setDisplay('u_string_7', true);
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;poojitha.gannapureddy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-13 08:45:43&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cb493ae7470661105dffc789826d439b&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide fields based on Mode&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NjoyNow" source="x_317911_njoynow"&gt;1f5cbb38479521105dffc789826d435d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NjoyNow"&gt;1f5cbb38479521105dffc789826d435d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_cb493ae7470661105dffc789826d439b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;poojitha.gannapureddy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-14 07:44:03&lt;/sys_updated_on&gt;&lt;table&gt;x_317911_njoynow_interview&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2089071687</payload_hash>
+        <record_name>Hide fields based on Mode</record_name>
+        <reverted_from/>
+        <source>203a721f47c221105dffc789826d433b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-14 07:44:03</sys_created_on>
+        <sys_id>cc467bb3470221105dffc789826d433d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1877eb8a7af0000001</sys_recorded_at>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-14 07:44:03</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>84467bb39c022110a26e3ef27ed90d3d</update_guid>
+        <update_guid_history>84467bb39c022110a26e3ef27ed90d3d:2089071687,5b06bbb38a0221103f5d01425fff2caf:1985351054,b07bb26bb8066110086c28d060b6ab98:-260177476,3e3bb2e723066110f8a891cf88221487:980603984,4e1b7ae71906611029004c6df11f2246:1633382799,d5cab26b62066110fdb6c725e030ce92:-2038693080</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-17 09:11:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>041e11f959c643ee8145c45968e51439</sys_id>
+        <sys_metadata>cb493ae7470661105dffc789826d439b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide fields based on Mode</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_parent display_value="Interview">1baff7bc479521105dffc789826d43dd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_scope_delete display_value="">2d85f3996bf442ecbdf54b79ebc81ae4</sys_scope_delete>
+        <sys_update_name>sys_script_client_cb493ae7470661105dffc789826d439b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_cb493ae7470661105dffc789826d439b">cc467bb3470221105dffc789826d433d</sys_update_version>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-17 09:11:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

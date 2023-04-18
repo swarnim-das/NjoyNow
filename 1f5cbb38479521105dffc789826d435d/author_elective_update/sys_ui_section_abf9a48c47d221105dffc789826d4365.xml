@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="abf9a48c47d221105dffc789826d4365" sys_domain="global" table="x_317911_njoynow_interview" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>overall_review</element>
+            <position>0</position>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-14 11:30:07</sys_created_on>
+            <sys_id>2ff9a48c47d221105dffc789826d43d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">abf9a48c47d221105dffc789826d4365</sys_ui_section>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-14 11:30:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_317911_njoynow_interview</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-14 11:30:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abf9a48c47d221105dffc789826d4365</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_317911_njoynow_interview</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+            <sys_update_name>sys_ui_section_abf9a48c47d221105dffc789826d4365</sys_update_name>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-14 11:30:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</application>
+        <file_path/>
+        <instance_id>ca629802db0b2c10431011f8489619a2</instance_id>
+        <instance_name>dev108126</instance_name>
+        <name>sys_ui_section_abf9a48c47d221105dffc789826d4365</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="abf9a48c47d221105dffc789826d4365" sys_domain="global" table="x_317911_njoynow_interview" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>overall_review</element><position>0</position><sys_created_by>poojitha.gannapureddy</sys_created_by><sys_created_on>2023-04-14 11:30:07</sys_created_on><sys_id>2ff9a48c47d221105dffc789826d43d5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">abf9a48c47d221105dffc789826d4365</sys_ui_section><sys_updated_by>poojitha.gannapureddy</sys_updated_by><sys_updated_on>2023-04-14 11:30:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_317911_njoynow_interview</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>poojitha.gannapureddy</sys_created_by><sys_created_on>2023-04-14 11:30:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>abf9a48c47d221105dffc789826d4365</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_317911_njoynow_interview</sys_name><sys_overrides/><sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package><sys_policy/><sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope><sys_update_name>sys_ui_section_abf9a48c47d221105dffc789826d4365</sys_update_name><sys_updated_by>poojitha.gannapureddy</sys_updated_by><sys_updated_on>2023-04-14 11:30:07</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>2081181812</payload_hash>
+        <record_name>Interview</record_name>
+        <reverted_from/>
+        <source>203a721f47c221105dffc789826d433b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-14 11:30:07</sys_created_on>
+        <sys_id>2bf9a48c47d221105dffc789826d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1877f87a12f0000001</sys_recorded_at>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-14 11:30:07</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>aff9a48c92d22110ce1d35f33770d7d6</update_guid>
+        <update_guid_history>aff9a48c92d22110ce1d35f33770d7d6:2081181812</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-14 11:30:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0f94a4f0c57841708569463298326364</sys_id>
+        <sys_metadata>abf9a48c47d221105dffc789826d4365</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_parent display_value="Interview">1baff7bc479521105dffc789826d43dd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_scope_delete display_value="">2d85f3996bf442ecbdf54b79ebc81ae4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_abf9a48c47d221105dffc789826d4365</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_abf9a48c47d221105dffc789826d4365">2bf9a48c47d221105dffc789826d43d7</sys_update_version>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-14 11:30:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

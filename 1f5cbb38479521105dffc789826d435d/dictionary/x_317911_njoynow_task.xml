@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f618ccc4475221105dffc789826d43e4" extends="task" label="NjoyN Task" max_length="40" name="x_317911_njoynow_task" text_index="true" type="collection">
+        <element label="Job Application" max_length="32" name="job_application" reference="x_317911_njoynow_job_application" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="6bf9a48c47d221105dffc789826d43be" sys_domain="global" table="x_317911_njoynow_interview" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-14 11:30:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23f9a48c47d221105dffc789826d43c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_317911_njoynow_interview" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">6bf9a48c47d221105dffc789826d43be</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">eb66be0147d561105dffc789826d438f</sys_ui_section>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-14 11:30:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-17 09:47:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e65fe3f0479221105dffc789826d435a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_317911_njoynow_interview" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">6bf9a48c47d221105dffc789826d43be</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">e25fe3f0479221105dffc789826d4357</sys_ui_section>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-17 09:47:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-17 09:47:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e5fe3f0479221105dffc789826d435e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_317911_njoynow_interview" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">6bf9a48c47d221105dffc789826d43be</sys_ui_form>
+            <sys_ui_section caption="Review Notes" display_value="Review Notes" name="x_317911_njoynow_interview" sys_domain="global" view="Default view">6e5fe3f0479221105dffc789826d4358</sys_ui_section>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-17 09:47:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_317911_njoynow_interview</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-14 11:30:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bf9a48c47d221105dffc789826d43be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_317911_njoynow_interview</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_6bf9a48c47d221105dffc789826d43be</sys_update_name>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-14 11:30:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

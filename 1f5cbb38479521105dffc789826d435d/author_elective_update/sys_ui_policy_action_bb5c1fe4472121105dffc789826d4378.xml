@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_string_7</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>priya.harshitha</sys_created_by>
+        <sys_created_on>2023-03-10 06:59:29</sys_created_on>
+        <sys_id>bb5c1fe4472121105dffc789826d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_string_7</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_bb5c1fe4472121105dffc789826d4378</sys_update_name>
+        <sys_updated_by>priya.harshitha</sys_updated_by>
+        <sys_updated_on>2023-03-10 06:59:29</sys_updated_on>
+        <table>x_317911_njoynow_interview</table>
+        <ui_policy display_value="If Mode is F2F only F2F Interview Location should visible">45eb1328472121105dffc789826d434e</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</application>
+        <file_path/>
+        <instance_id>ca629802db0b2c10431011f8489619a2</instance_id>
+        <instance_name>dev108126</instance_name>
+        <name>sys_ui_policy_action_bb5c1fe4472121105dffc789826d4378</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_string_7</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>priya.harshitha</sys_created_by><sys_created_on>2023-03-10 06:59:29</sys_created_on><sys_id>bb5c1fe4472121105dffc789826d4378</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_string_7</sys_name><sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package><sys_policy/><sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope><sys_update_name>sys_ui_policy_action_bb5c1fe4472121105dffc789826d4378</sys_update_name><sys_updated_by>priya.harshitha</sys_updated_by><sys_updated_on>2023-03-10 06:59:29</sys_updated_on><table>x_317911_njoynow_interview</table><ui_policy display_value="If Mode is F2F only F2F Interview Location should visible">45eb1328472121105dffc789826d434e</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1669800067</payload_hash>
+        <record_name>u_string_7</record_name>
+        <reverted_from/>
+        <source>535cbb38479521105dffc789826d4360</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>priya.harshitha</sys_created_by>
+        <sys_created_on>2023-03-10 06:59:29</sys_created_on>
+        <sys_id>c26c5728472121105dffc789826d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186ca5147320000001</sys_recorded_at>
+        <sys_updated_by>priya.harshitha</sys_updated_by>
+        <sys_updated_on>2023-03-10 06:59:29</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>0a6c5728582121108a494c5fa8c1b61b</update_guid>
+        <update_guid_history>0a6c5728582121108a494c5fa8c1b61b:1669800067</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-12 17:29:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>736995771f3342e29509a1bcc8204539</sys_id>
+        <sys_metadata>bb5c1fe4472121105dffc789826d4378</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_string_7</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_parent display_value="">45eb1328472121105dffc789826d434e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_scope_delete display_value="">2d85f3996bf442ecbdf54b79ebc81ae4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_bb5c1fe4472121105dffc789826d4378</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_bb5c1fe4472121105dffc789826d4378">c26c5728472121105dffc789826d431c</sys_update_version>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-12 17:29:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

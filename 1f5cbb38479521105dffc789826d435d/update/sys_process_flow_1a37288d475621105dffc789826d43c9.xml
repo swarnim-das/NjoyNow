@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_317911_njoynow_job_application">state=2^EQ<item display_value="In Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label> In Progress</label>
+        <name>Job Application - In Progress State</name>
+        <order>300</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-17 13:51:57</sys_created_on>
+        <sys_id>1a37288d475621105dffc789826d43c9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Job Application - In Progress State</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_process_flow_1a37288d475621105dffc789826d43c9</sys_update_name>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-17 13:55:10</sys_updated_on>
+        <table>x_317911_njoynow_job_application</table>
+    </sys_process_flow>
+</record_update>

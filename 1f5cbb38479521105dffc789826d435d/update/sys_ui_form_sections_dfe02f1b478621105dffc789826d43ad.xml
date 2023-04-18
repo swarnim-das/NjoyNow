@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="dfe02f1b478621105dffc789826d43ad" sys_domain="global" table="x_317911_njoynow_job_application" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-17 13:56:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0582801479621105dffc789826d43be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_317911_njoynow_job_application" name="x_317911_njoynow_job_application" sys_domain="global" view="Default view">dfe02f1b478621105dffc789826d43ad</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_317911_njoynow_job_application" sys_domain="global" view="Default view">60582801479621105dffc789826d4385</sys_ui_section>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:56:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_317911_njoynow_job_application</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-12 16:53:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfe02f1b478621105dffc789826d43ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_317911_njoynow_job_application</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_dfe02f1b478621105dffc789826d43ad</sys_update_name>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-12 16:53:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

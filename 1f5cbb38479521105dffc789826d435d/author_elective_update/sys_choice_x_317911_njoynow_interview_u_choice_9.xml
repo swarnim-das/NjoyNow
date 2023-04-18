@@ -20,7 +20,7 @@
             <element>u_choice_9</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Yes</label>
+            <label>Selected</label>
             <language>en</language>
             <name>x_317911_njoynow_interview</name>
             <sequence>0</sequence>
@@ -29,17 +29,17 @@
             <sys_created_on>2023-03-08 12:14:16</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>priya.harshitha</sys_updated_by>
-            <sys_updated_on>2023-03-08 12:14:16</sys_updated_on>
-            <value>yes</value>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-28 11:24:24</sys_updated_on>
+            <value>selected</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_choice_9</element>
             <hint/>
             <inactive>false</inactive>
-            <label>No</label>
+            <label>Not Selected</label>
             <language>en</language>
             <name>x_317911_njoynow_interview</name>
             <sequence>1</sequence>
@@ -48,10 +48,10 @@
             <sys_created_on>2023-03-08 12:14:16</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>priya.harshitha</sys_updated_by>
-            <sys_updated_on>2023-03-08 12:14:16</sys_updated_on>
-            <value>no</value>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-28 11:24:39</sys_updated_on>
+            <value>not_selected</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -71,6 +71,44 @@
             <sys_updated_by>priya.harshitha</sys_updated_by>
             <sys_updated_on>2023-03-08 12:14:16</sys_updated_on>
             <value>on hold</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_9</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recommended for Future Consideration</label>
+            <language>en</language>
+            <name>x_317911_njoynow_interview</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-28 11:25:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-28 11:28:07</sys_updated_on>
+            <value>future_consideration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_9</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recommended for Other Open Positions</label>
+            <language>en</language>
+            <name>x_317911_njoynow_interview</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-28 11:26:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-28 11:27:32</sys_updated_on>
+            <value>recommended_other_position</value>
         </sys_choice>
     </sys_choice>
 </record_update>

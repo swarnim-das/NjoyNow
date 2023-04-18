@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="3bad733c479521105dffc789826d43cc" label="Job" max_length="40" name="x_317911_njoynow_job" type="collection">
+    <element db_object_id="3bad733c479521105dffc789826d43cc" label="Job" max_length="40" name="x_317911_njoynow_job" text_index="true" type="collection">
         <element label="Correlation ID" max_length="100" name="correlation_id" type="string"/>
+        <element label="Hiring Manager" max_length="32" name="hiring_manager" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Title" max_length="40" name="title" type="string"/>
+        <element label="Title" mandatory="true" max_length="40" name="title" type="string"/>
+        <index name="index">
+            <element name="hiring_manager"/>
+        </index>
     </element>
 </database>

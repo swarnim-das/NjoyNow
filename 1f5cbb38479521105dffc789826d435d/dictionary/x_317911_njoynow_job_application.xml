@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="f2edb73c479521105dffc789826d4308" label="Job Application" max_length="40" name="x_317911_njoynow_job_application" type="collection">
-        <element display="true" label="Candidate" max_length="32" name="candidate" reference="x_317911_njoynow_candidate" type="reference"/>
+    <element audit="true" db_object_id="f2edb73c479521105dffc789826d4308" label="Job Application" max_length="40" name="x_317911_njoynow_job_application" text_index="true" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Candidate" max_length="32" name="candidate" reference="x_317911_njoynow_candidate" type="reference"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
         <element attributes="edge_encryption_enabled=true" label="Designation" max_length="40" name="designation" type="string"/>
         <element label="Expected CTC" max_length="15" name="expected_ctc" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="yet to be determined" label="Interview Eligibility" max_length="40" name="interview_eligibility" type="string">
@@ -12,6 +14,7 @@
         </element>
         <element label="Job" max_length="32" name="job" reference="x_317911_njoynow_job" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Joining Date" max_length="40" name="joining_date" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
         <element label="Offered CTC" max_length="15" name="offered_ctc" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="yet to be determined" label="Position Offered" max_length="40" name="position_offered" type="string">
             <choice>
@@ -21,6 +24,17 @@
             </choice>
         </element>
         <element label="Relevant Experience (in years)" max_length="15" name="relevant_experience" type="decimal"/>
+        <element label="Resume" max_length="40" name="resume" type="file_attachment"/>
+        <element choice="3" default="0" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Open" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="On Hold" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Rejected" sequence="5" value="5"/>
+            </choice>
+        </element>
         <element attributes="encode_utf8=false" label="TA Point of Contact" max_length="32" name="ta_point_of_contact" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="candidate"/>

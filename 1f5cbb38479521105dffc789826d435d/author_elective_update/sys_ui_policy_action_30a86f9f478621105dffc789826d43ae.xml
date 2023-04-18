@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_string_7</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-12 17:27:37</sys_created_on>
+        <sys_id>30a86f9f478621105dffc789826d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_string_7</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_30a86f9f478621105dffc789826d43ae</sys_update_name>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-12 17:27:37</sys_updated_on>
+        <table>x_317911_njoynow_interview</table>
+        <ui_policy display_value="When Mode is None, hide unnecessary fields">9dc5239f478621105dffc789826d432c</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</application>
+        <file_path/>
+        <instance_id>ca629802db0b2c10431011f8489619a2</instance_id>
+        <instance_name>dev108126</instance_name>
+        <name>sys_ui_policy_action_30a86f9f478621105dffc789826d43ae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_string_7</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>poojitha.gannapureddy</sys_created_by><sys_created_on>2023-04-12 17:27:37</sys_created_on><sys_id>30a86f9f478621105dffc789826d43ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_string_7</sys_name><sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package><sys_policy/><sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope><sys_update_name>sys_ui_policy_action_30a86f9f478621105dffc789826d43ae</sys_update_name><sys_updated_by>poojitha.gannapureddy</sys_updated_by><sys_updated_on>2023-04-12 17:27:37</sys_updated_on><table>x_317911_njoynow_interview</table><ui_policy display_value="When Mode is None, hide unnecessary fields">9dc5239f478621105dffc789826d432c</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>345722408</payload_hash>
+        <record_name>u_string_7</record_name>
+        <reverted_from/>
+        <source>203a721f47c221105dffc789826d433b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-12 17:27:37</sys_created_on>
+        <sys_id>74a86f9f478621105dffc789826d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187768235f70000001</sys_recorded_at>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-12 17:27:37</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>b8a86f9f68862110ca0e91639a3fd2af</update_guid>
+        <update_guid_history>b8a86f9f68862110ca0e91639a3fd2af:345722408</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-12 17:45:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1d4cc37c528f4e0c83c3a1c4b7702310</sys_id>
+        <sys_metadata>30a86f9f478621105dffc789826d43ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_string_7</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_scope_delete display_value="">2d85f3996bf442ecbdf54b79ebc81ae4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_30a86f9f478621105dffc789826d43ae</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_30a86f9f478621105dffc789826d43ae">74a86f9f478621105dffc789826d43b0</sys_update_version>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-12 17:45:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_impex_map">
+    <sys_impex_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent/>
+        <apply_defaults>true</apply_defaults>
+        <coalesce/>
+        <condition_script/>
+        <data_option>insert_update</data_option>
+        <data_source/>
+        <description/>
+        <external_names/>
+        <name>NjoyN Interview</name>
+        <order/>
+        <parent/>
+        <script/>
+        <sys_class_name>sys_impex_map</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-22 06:20:59</sys_created_on>
+        <sys_id>bedfac26471225105dffc789826d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NjoyN Interview</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_impex_map_bedfac26471225105dffc789826d43f5</sys_update_name>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-22 06:20:59</sys_updated_on>
+        <table>x_317911_njoynow_interview</table>
+        <type>icalendar</type>
+    </sys_impex_map>
+</record_update>

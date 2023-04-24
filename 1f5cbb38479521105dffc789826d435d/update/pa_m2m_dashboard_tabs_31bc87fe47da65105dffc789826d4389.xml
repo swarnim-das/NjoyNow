@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Njoyn Dashboard">4ef9c7fa47da65105dffc789826d43a9</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>3</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-23 12:24:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31bc87fe47da65105dffc789826d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4ef9c7fa47da65105dffc789826d43a9</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_31bc87fe47da65105dffc789826d4389</sys_update_name>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-23 12:24:20</sys_updated_on>
+        <tab display_value="Talent Acquisition">2dbc87fe47da65105dffc789826d4386</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

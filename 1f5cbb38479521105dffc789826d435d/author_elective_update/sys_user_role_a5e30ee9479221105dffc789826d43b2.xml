@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_317911_njoynow.basic_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>basic_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-19 09:54:32</sys_created_on>
+        <sys_id>a5e30ee9479221105dffc789826d43b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_317911_njoynow.basic_user</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_user_role_a5e30ee9479221105dffc789826d43b2</sys_update_name>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-19 09:54:32</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</application>
+        <file_path/>
+        <instance_id>ca629802db0b2c10431011f8489619a2</instance_id>
+        <instance_name>dev108126</instance_name>
+        <name>sys_user_role_a5e30ee9479221105dffc789826d43b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><encryption_context/><grantable>true</grantable><includes_roles/><name>x_317911_njoynow.basic_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>basic_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>poojitha.gannapureddy</sys_created_by><sys_created_on>2023-04-19 09:54:32</sys_created_on><sys_id>a5e30ee9479221105dffc789826d43b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_317911_njoynow.basic_user</sys_name><sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package><sys_policy/><sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope><sys_update_name>sys_user_role_a5e30ee9479221105dffc789826d43b2</sys_update_name><sys_updated_by>poojitha.gannapureddy</sys_updated_by><sys_updated_on>2023-04-19 09:54:32</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-157321754</payload_hash>
+        <record_name>x_317911_njoynow.basic_user</record_name>
+        <reverted_from/>
+        <source>ad93c6e9479221105dffc789826d430f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-19 09:54:32</sys_created_on>
+        <sys_id>9c14cee9479221105dffc789826d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18798efeac10000001</sys_recorded_at>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-19 09:54:32</sys_updated_on>
+        <type>Role</type>
+        <update_guid>9014cee91892211080a1040df69b10ca</update_guid>
+        <update_guid_history>9014cee91892211080a1040df69b10ca:-157321754</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_317911_njoynow.basic_user">45761eed47d221105dffc789826d43a2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-19 11:14:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>0d0e1710ac4f4a8fad6a7835864e1ae9</sys_id>
+        <sys_metadata>a5e30ee9479221105dffc789826d43b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_317911_njoynow.basic_user</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_scope_delete display_value="">2d85f3996bf442ecbdf54b79ebc81ae4</sys_scope_delete>
+        <sys_update_name>sys_user_role_a5e30ee9479221105dffc789826d43b2</sys_update_name>
+        <sys_update_version display_value="sys_user_role_a5e30ee9479221105dffc789826d43b2">9c14cee9479221105dffc789826d43ca</sys_update_version>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-19 11:14:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

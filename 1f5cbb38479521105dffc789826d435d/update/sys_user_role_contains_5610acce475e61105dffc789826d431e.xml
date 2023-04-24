@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_317911_njoynow.panel" name="x_317911_njoynow.panel">8e052b3d475a61105dffc789826d4387</contains>
+        <role display_value="x_317911_njoynow.hiring_admin" name="x_317911_njoynow.hiring_admin">9b44cee9479221105dffc789826d43cc</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-20 15:54:44</sys_created_on>
+        <sys_id>5610acce475e61105dffc789826d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_317911_njoynow.panel.x_317911_njoynow.hiring_admin</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_user_role_contains_5610acce475e61105dffc789826d431e</sys_update_name>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:54:44</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

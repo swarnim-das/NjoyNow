@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_317911_njoynow.NjoyNowUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>NjoyNowUtils</name>
+        <script><![CDATA[var NjoyNowUtils = Class.create();
+NjoyNowUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    /**********************************************************************************
+    	verifyPanelMembership
+    	---------------------
+    	This method can take inputs via 2 ways - method params and ajax params        *  
+    	params                                                   (client scriipt)     *
+    		interviewId: sys_id of interview record                                   *
+    		userId: sys_id of user record                                             *
+    	return                                                                        * 
+    		panel record sys_id, if userid is part of the interview panel             *
+    ***********************************************************************************/
+    verifyPanelMembership: function(interviewId, userId) {
+        try {
+            //allow the flexibility of taking params both via method param & sys_parm of client script
+            interviewId = interviewId ? interviewId : this.getParameter("sysparm_interview");
+            userId = userId ? userId : this.getParameter("sysparm_userId");
+
+            var panelGr = new GlideRecord("x_317911_njoynow_panel");
+            panelGr.addQuery("sys_user=" + userId + "^x_317911_njoynow_interview=" + interviewId);
+            panelGr.setLimit(1);
+            panelGr.query();
+            if (panelGr.next()) {
+                return panelGr.getUniqueValue();
+            }
+
+        } catch (err) {
+            gs.error("NjoyNowUtils:verifyPanelMembership\n\n" + err);
+        }
+
+        return "";
+    },
+
+    verifyOverallReview: function(japId) {
+        var interviewGR = new GlideRecord("x_317911_njoynow_interview");
+        interviewGR.addQuery("job_application=" + japId + "^overall_reviewISNOTEMPTY");
+        interviewGR.setLimit(1);
+        interviewGR.query();
+        if (interviewGR.hasNext()) {
+            return true;
+        }
+        return "";
+    },
+
+    type: 'NjoyNowUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-19 14:53:05</sys_created_on>
+        <sys_id>92b6c72147d621105dffc789826d434b</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>NjoyNowUtils</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_script_include_92b6c72147d621105dffc789826d434b</sys_update_name>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-24 15:58:54</sys_updated_on>
+    </sys_script_include>
+</record_update>

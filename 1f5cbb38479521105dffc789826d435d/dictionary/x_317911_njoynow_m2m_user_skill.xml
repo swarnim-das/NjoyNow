@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0b25288f4752a5105dffc789826d433f" label="Skill Set" max_length="40" name="x_317911_njoynow_m2m_user_skill" type="collection">
+        <element attributes="encode_utf8=false" label="Skill" max_length="32" name="skill" reference="x_317911_njoynow_utilities" reference_qual="type=skill^EQ" reference_qual_condition="type=skill^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="User" max_length="32" name="sys_user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="skill"/>
+        </index>
+        <index name="index2">
+            <element name="sys_user"/>
+        </index>
+    </element>
+</database>

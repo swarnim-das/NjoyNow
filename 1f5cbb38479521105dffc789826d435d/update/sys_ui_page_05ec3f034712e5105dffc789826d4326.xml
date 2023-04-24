@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[//var contentId = get('contentId').value;
+//alert(contentId);
+//gel('contentId').style.display = "block";
+alert('Hey');
+
+function openTab(evt, contentId) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(contentId).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+function showFIrstTab(contentId) {
+	alert(contentId);
+    document.getElementById(contentId).style.display = "block";
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_317911_njoynow_all_reviews_for_jap.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g:evaluate object="true">
+        var interviewGR = new GlideRecord("x_317911_njoynow_interview");
+		interviewGR.addQuery("job_application=${sysparm_jap_id}^overall_reviewISNOTEMPTY");
+		interviewGR.orderByDesc("sys_created_on");
+		interviewGR.query();
+		interviewGR;
+    </g:evaluate>
+
+    <g:evaluate object="true">
+        var reviews = [];
+		var count = 0;
+		reviews;
+    </g:evaluate>
+
+    <div class="tab">
+        <j:while test="${interviewGR.next()}">
+            <button class="tablinks" onclick="openTab(event, '${interviewGR.type.getDisplayValue()}')">${interviewGR.type.getDisplayValue()}</button>
+            <g:evaluate object="true">
+                var review = {};
+				review.id = interviewGR.type.getDisplayValue();
+				review.value = interviewGR.getValue("overall_review");
+				reviews.push(review);
+            </g:evaluate>
+        </j:while>
+    </div>
+	
+	<input type="text" value="${reviews[0].id}" id="contentId"></input>
+          
+    <j:forEach var="jvar_review" items="${reviews}">
+        <div id="${jvar_review.id}" class="tabcontent">
+            <g:no_escape>
+                ${jvar_review.value}
+            </g:no_escape>
+        </div>
+    </j:forEach>
+
+    <style>
+        .tab {
+            overflow: hidden; 
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+    </style>
+</j:jelly>
+]]></html>
+        <name>all_reviews_for_jap</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-24 10:33:55</sys_created_on>
+        <sys_id>05ec3f034712e5105dffc789826d4326</sys_id>
+        <sys_mod_count>88</sys_mod_count>
+        <sys_name>all_reviews_for_jap</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_ui_page_05ec3f034712e5105dffc789826d4326</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 16:10:18</sys_updated_on>
+    </sys_ui_page>
+</record_update>

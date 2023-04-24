@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_client_template">
+    <sys_email_client_template action="INSERT_OR_UPDATE">
+        <blind_copied/>
+        <body/>
+        <body_html><![CDATA[<p><span style="font-size: 12pt;">Hi </span><span style="font-size: 12pt;">${candidate},<br /></span></p>
+<p><span style="font-size: 12pt;">Thank you so much for your interest in the ${job.title} with CGI. We really appreciate your interest in joining our company and we want to thank you for the time and energy you invested.<br /></span></p>
+<p><span style="font-size: 12pt;">While we were impressed with your skill set, this time, we have chosen to proceed with another candidate. We wish you every personal and professional success in your future endeavors.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 12pt;">Regards,</span></p>
+<p><span style="font-size: 12pt;">${ta_point_of_contact.name}<br /><br /></span></p>]]></body_html>
+        <condition table="x_317911_njoynow_job_application">position_offered=no^EQ<item display_value="No" endquery="false" field="position_offered" goto="false" newquery="false" operator="=" or="false" value="no"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <copied/>
+        <email_client_from_address/>
+        <from/>
+        <from_generation_type/>
+        <name>Notify Candidate via Email</name>
+        <order>90</order>
+        <recipients>candidate.email</recipients>
+        <reply_to/>
+        <script_from><![CDATA[(function (fromAddressQuery, targetRecord) {
+		/**
+		 * fromAddressQuery: A GlideRecord on the table "sys_email_client_from_address". Add conditions to filter the
+		 * 		the email addresses displayed in the Email Client. 
+		 * targetRecord: A GlideRecord representing the record in which the Email Client was opened from
+		 */
+
+})(fromAddressQuery, targetRecord);]]></script_from>
+        <subject>Interview with CGI</subject>
+        <sys_class_name>sys_email_client_template</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-18 13:35:23</sys_created_on>
+        <sys_id>b10aa1d1479621105dffc789826d433f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Notify Candidate via Email</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_email_client_template_b10aa1d1479621105dffc789826d433f</sys_update_name>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-18 16:40:47</sys_updated_on>
+        <table>x_317911_njoynow_job_application</table>
+    </sys_email_client_template>
+</record_update>

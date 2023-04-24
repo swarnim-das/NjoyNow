@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>rate_review_by_panel</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+    try {
+        var panelGR = new GlideRecord("x_317911_njoynow_panel");
+        panelGR.addQuery("sys_user", g_user.userID);
+        panelGR.addQuery("x_317911_njoynow_interview", g_form.getUniqueValue());
+        panelGR.setLimit(1);
+        panelGR.query(function(panelRec) {
+            if (panelRec.next()) {
+                g_aw.openRecord("x_317911_njoynow_panel", panelRec.sys_id);
+            } else {
+                g_form.addErrorMessage("Some error occured. Please contact system administrator");
+            }
+        });
+    } catch (err) {
+        g_form.addErrorMessage("Some error occured. Please contact system administrator\n\n" + err);
+    }
+}]]></client_script_v2>
+        <comments/>
+        <condition>!gs.nil(new NjoyNowUtils().verifyPanelMembership(current.getUniqueValue(), gs.getUserID()))</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Rate &amp; Review</name>
+        <onclick>rateReview()</onclick>
+        <order>-500</order>
+        <script><![CDATA[function rateReview() {
+
+    var ga = new GlideAjax('x_317911_njoynow.NjoyNowUtils');
+    ga.addParam('sysparm_name', 'verifyPanelMembership');
+    ga.addParam("sysparm_interview", g_form.getUniqueValue());
+    ga.addParam("sysparm_userId", g_user.userID);
+    ga.getXMLAnswer(function(panelId) {
+        if (panelId) {
+            var showPanel = new GlideModalForm('Panel', 'x_317911_njoynow_panel');
+            showPanel.addParm("sys_id", panelId);
+            showPanel.render();
+        }else{
+			g_form.addErrorMessage("Some error occured. Please contact system administrator");
+		}
+    });
+
+    //g_navigation.openPopup('x_317911_njoynow_panel.do?sys_id=05f167ad471a21105dffc789826d43d5', 'Panel', 'resizable,scrollbars,status', true);
+    //g_navigation.openPopup('incident.do?sys_id=3c37dfdd478a61105dffc789826d432a', 'Active Incidents', 'resizable,scrollbars,status', true);
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-19 14:54:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>43144b6d479621105dffc789826d433d</sys_id>
+        <sys_mod_count>49</sys_mod_count>
+        <sys_name>Rate &amp; Review</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_ui_action_43144b6d479621105dffc789826d433d</sys_update_name>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-21 14:44:03</sys_updated_on>
+        <table>x_317911_njoynow_interview</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

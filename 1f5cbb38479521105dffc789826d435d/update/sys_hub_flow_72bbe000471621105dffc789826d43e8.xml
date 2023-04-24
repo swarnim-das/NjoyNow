@@ -10,14 +10,14 @@
         <copied_from_name/>
         <description/>
         <internal_name>create_njoyn_tasks</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Job Application Record","reference":"x_317911_njoynow_job_application","reference_display":"Job Application","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.job.hiring_manager","label":"Trigger - Record Created➛Job Application Record➛Job➛Hiring Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_317911_njoynow_job","column_name":"hiring_manager"}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.job.hiring_manager","label":"Trigger - Record Created➛Job Application Record➛Job➛Hiring Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_317911_njoynow_job","column_name":"hiring_manager"},{"name":"Created_1.current","label":"Trigger - Record Created➛Job Application Record","reference":"x_317911_njoynow_job_application","reference_display":"Job Application","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master_snapshot>bbfd60c0471621105dffc789826d439c</master_snapshot>
         <name>Interview Eligibility Review Task for Hiring Manager</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>4570019547d221105dffc789826d4388</remote_trigger_id>
-        <run_as>user</run_as>
+        <remote_trigger_id>3254b7c747dea5105dffc789826d4356</remote_trigger_id>
+        <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>72bbe000471621105dffc789826d43e8</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Interview Eligibility Review Task for Hiring Manager</sys_name>
         <sys_overrides/>
         <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
         <sys_update_name>sys_hub_flow_72bbe000471621105dffc789826d43e8</sys_update_name>
         <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
-        <sys_updated_on>2023-04-18 10:20:40</sys_updated_on>
+        <sys_updated_on>2023-04-24 09:56:01</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=72bbe000471621105dffc789826d43e8"/>
@@ -57,15 +57,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>poojitha.gannapureddy</sys_created_by>
-        <sys_created_on>2023-04-18 10:20:39</sys_created_on>
+        <sys_created_on>2023-04-24 09:56:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4570019547d221105dffc789826d4388</sys_id>
+        <sys_id>3254b7c747dea5105dffc789826d4356</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
         <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
-        <sys_updated_on>2023-04-18 10:20:39</sys_updated_on>
+        <sys_updated_on>2023-04-24 09:56:01</sys_updated_on>
         <table>x_317911_njoynow_job_application</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
@@ -74,14 +74,14 @@
         <identifier>72bbe000471621105dffc789826d43e8</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>poojitha.gannapureddy</sys_created_by>
-        <sys_created_on>2023-04-18 10:20:39</sys_created_on>
-        <sys_id>c970019547d221105dffc789826d4388</sys_id>
+        <sys_created_on>2023-04-24 09:56:01</sys_created_on>
+        <sys_id>b654b7c747dea5105dffc789826d4356</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
-        <sys_updated_on>2023-04-18 10:20:39</sys_updated_on>
-        <trigger display_value="">4570019547d221105dffc789826d4388</trigger>
+        <sys_updated_on>2023-04-24 09:56:01</sys_updated_on>
+        <trigger display_value="">3254b7c747dea5105dffc789826d4356</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=72bbe000471621105dffc789826d43e8^sys_idNOT INc970019547d221105dffc789826d4388"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=72bbe000471621105dffc789826d43e8^sys_idNOT INb654b7c747dea5105dffc789826d4356"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=72bbe000471621105dffc789826d43e8^sys_idNOT INc64de080471621105dffc789826d43ec"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment>Whenever a new Job Application is created for a Job where Hiring Manager is Not Empty</comment>
@@ -92,10 +92,10 @@
         <sys_created_by>poojitha.gannapureddy</sys_created_by>
         <sys_created_on>2023-04-14 11:44:29</sys_created_on>
         <sys_id>c64de080471621105dffc789826d43ec</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
-        <sys_updated_on>2023-04-18 10:20:39</sys_updated_on>
+        <sys_updated_on>2023-04-24 09:56:01</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -208,14 +208,14 @@
         <sys_created_by>poojitha.gannapureddy</sys_created_by>
         <sys_created_on>2023-04-14 11:44:29</sys_created_on>
         <sys_id>4a4de080471621105dffc789826d43e7</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
-        <sys_updated_on>2023-04-18 10:20:39</sys_updated_on>
+        <sys_updated_on>2023-04-24 09:56:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -291,14 +291,14 @@
         <sys_created_by>poojitha.gannapureddy</sys_created_by>
         <sys_created_on>2023-04-14 11:44:29</sys_created_on>
         <sys_id>c24de080471621105dffc789826d43e2</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
-        <sys_updated_on>2023-04-18 10:20:39</sys_updated_on>
+        <sys_updated_on>2023-04-24 09:56:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -328,10 +328,10 @@
         <sys_created_by>poojitha.gannapureddy</sys_created_by>
         <sys_created_on>2023-04-14 11:44:29</sys_created_on>
         <sys_id>064de080471621105dffc789826d43f3</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
         <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
-        <sys_updated_on>2023-04-18 10:20:40</sys_updated_on>
+        <sys_updated_on>2023-04-24 09:56:01</sys_updated_on>
         <ui_id>d4061457-5883-4bde-ad5c-d2c6bff15e3b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=064de080471621105dffc789826d43f3"/>
@@ -441,12 +441,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>800e60c0471621105dffc789826d43e3</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
-        <sys_updated_on>2023-04-18 10:20:39</sys_updated_on>
-        <trigger display_value="">4570019547d221105dffc789826d4388</trigger>
+        <sys_updated_on>2023-04-24 09:56:01</sys_updated_on>
+        <trigger display_value="">3254b7c747dea5105dffc789826d4356</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=72bbe000471621105dffc789826d43e8"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -460,14 +460,14 @@
         <copied_from_name/>
         <description/>
         <internal_name>create_njoyn_tasks</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Job Application Record","reference":"x_317911_njoynow_job_application","reference_display":"Job Application","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.job.hiring_manager","label":"Trigger - Record Created➛Job Application Record➛Job➛Hiring Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_317911_njoynow_job","column_name":"hiring_manager"}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.job.hiring_manager","label":"Trigger - Record Created➛Job Application Record➛Job➛Hiring Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_317911_njoynow_job","column_name":"hiring_manager"},{"name":"Created_1.current","label":"Trigger - Record Created➛Job Application Record","reference":"x_317911_njoynow_job_application","reference_display":"Job Application","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master>true</master>
         <name>Interview Eligibility Review Task for Hiring Manager</name>
         <natlang/>
         <outputs/>
         <parent_flow display_value="Interview Eligibility Review Task for Hiring Manager">72bbe000471621105dffc789826d43e8</parent_flow>
         <remote_trigger_id/>
-        <run_as>user</run_as>
+        <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <status>published</status>
@@ -477,7 +477,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bbfd60c0471621105dffc789826d439c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -485,7 +485,7 @@
         <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
-        <sys_updated_on>2023-04-18 10:20:39</sys_updated_on>
+        <sys_updated_on>2023-04-24 09:56:01</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=bbfd60c0471621105dffc789826d439c"/>
@@ -500,10 +500,10 @@
         <sys_created_by>poojitha.gannapureddy</sys_created_by>
         <sys_created_on>2023-04-14 11:47:37</sys_created_on>
         <sys_id>040e60c0471621105dffc789826d43c7</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
-        <sys_updated_on>2023-04-18 10:20:39</sys_updated_on>
+        <sys_updated_on>2023-04-24 09:56:01</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -616,14 +616,14 @@
         <sys_created_by>poojitha.gannapureddy</sys_created_by>
         <sys_created_on>2023-04-14 11:47:37</sys_created_on>
         <sys_id>37fd60c0471621105dffc789826d439f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
-        <sys_updated_on>2023-04-18 10:20:39</sys_updated_on>
+        <sys_updated_on>2023-04-24 09:56:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -699,14 +699,14 @@
         <sys_created_by>poojitha.gannapureddy</sys_created_by>
         <sys_created_on>2023-04-14 11:47:37</sys_created_on>
         <sys_id>3bfd60c0471621105dffc789826d43b4</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
-        <sys_updated_on>2023-04-18 10:20:39</sys_updated_on>
+        <sys_updated_on>2023-04-24 09:56:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -736,10 +736,10 @@
         <sys_created_by>poojitha.gannapureddy</sys_created_by>
         <sys_created_on>2023-04-14 11:47:37</sys_created_on>
         <sys_id>0c0e60c0471621105dffc789826d43c5</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
         <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
-        <sys_updated_on>2023-04-18 10:20:39</sys_updated_on>
+        <sys_updated_on>2023-04-24 09:56:01</sys_updated_on>
         <ui_id>d4061457-5883-4bde-ad5c-d2c6bff15e3b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0c0e60c0471621105dffc789826d43c5"/>

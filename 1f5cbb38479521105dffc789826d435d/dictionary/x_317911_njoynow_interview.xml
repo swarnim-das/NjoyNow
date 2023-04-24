@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="1baff7bc479521105dffc789826d43dd" label="Interview" max_length="40" name="x_317911_njoynow_interview" text_index="true" type="collection">
+    <element audit="true" db_object_id="1baff7bc479521105dffc789826d43dd" label="Interview" max_length="40" name="x_317911_njoynow_interview" text_index="true" type="collection">
         <element label="Average Rating" max_length="20" name="avg_rating" read_only="true" type="decimal"/>
         <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
         <element label="F2F Interview Location" max_length="600" name="f2f_location" type="string"/>
@@ -27,11 +27,12 @@
         <element label="Scheduled Date/Time" max_length="40" name="scheduled_date_time" type="glide_date_time"/>
         <element choice="3" default="backlog" label="State" max_length="40" name="state" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Backlog" sequence="0" value="backlog"/>
-                <element inactive_on_update="false" label="Scheduled" sequence="1" value="scheduled"/>
-                <element inactive_on_update="false" label="Rescheduled" sequence="2" value="rescheduled"/>
-                <element inactive_on_update="false" label="No Show" sequence="3" value="no show"/>
-                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+                <element inactive_on_update="false" label="Backlog" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Scheduled" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Rescheduled" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="0"/>
+                <element inactive_on_update="false" label="No Show" sequence="4" value="-1"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="5" value="-2"/>
             </choice>
         </element>
         <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">

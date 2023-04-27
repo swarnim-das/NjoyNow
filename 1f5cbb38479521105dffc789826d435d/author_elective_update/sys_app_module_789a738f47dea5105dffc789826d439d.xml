@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="NjoyNow">29b18c0147d521105dffc789826d4312</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Only for devs</hint>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Dev Studio</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sys_security_acl_role</name>
+        <order>510</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/$studio.do?sysparm_transaction_scope=1f5cbb38479521105dffc789826d435d&amp;sysparm_nostack=true&amp;sysparm_use_polaris=false</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 10:24:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>789a738f47dea5105dffc789826d439d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Dev Studio</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_app_module_789a738f47dea5105dffc789826d439d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 10:31:18</sys_updated_on>
+        <timeline_page/>
+        <title>Dev Studio</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name>ServiceNow NjoyNow Studio</window_name>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</application>
+        <file_path/>
+        <instance_id>ca629802db0b2c10431011f8489619a2</instance_id>
+        <instance_name>dev108126</instance_name>
+        <name>sys_app_module_789a738f47dea5105dffc789826d439d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="NjoyNow">29b18c0147d521105dffc789826d4312</application><assessment/><device_type/><filter/><hint>Only for devs</hint><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Dev Studio</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sys_security_acl_role</name><order>510</order><override_menu_roles>false</override_menu_roles><query>/$studio.do?sysparm_transaction_scope=1f5cbb38479521105dffc789826d435d&amp;sysparm_nostack=true&amp;sysparm_use_polaris=false</query><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-24 10:24:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>789a738f47dea5105dffc789826d439d</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Dev Studio</sys_name><sys_overrides/><sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package><sys_policy/><sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope><sys_update_name>sys_app_module_789a738f47dea5105dffc789826d439d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-24 10:31:18</sys_updated_on><timeline_page/><title>Dev Studio</title><uncancelable>false</uncancelable><view_name/><window_name>ServiceNow NjoyNow Studio</window_name></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1381202321</payload_hash>
+        <record_name>Dev Studio</record_name>
+        <reverted_from/>
+        <source>203a721f47c221105dffc789826d433b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 10:31:18</sys_created_on>
+        <sys_id>ab6c3fcf47dea5105dffc789826d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187b2d15d830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 10:31:18</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ef6c3fcf47dea51021f7eae104d9f0d8</update_guid>
+        <update_guid_history>ef6c3fcf47dea51021f7eae104d9f0d8:-1381202321,f44c3fcf63dea510ea3daa59a35b680c:550541338,15fb7bcf42dea510dd2b5fb1ee329f45:-105788357,476bfb8f57dea51046afd597f13165c1:-1289397055,011b3b0ba0dea51041a87de8a95c452c:372879691,65ea338f79dea510c918a33acb899af7:817127632</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Dev Studio">e6bc7b034712e5105dffc789826d430a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 10:32:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>51632707d6194ba6ba71da64ced45d69</sys_id>
+        <sys_metadata>789a738f47dea5105dffc789826d439d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dev Studio</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_scope_delete display_value="">2d85f3996bf442ecbdf54b79ebc81ae4</sys_scope_delete>
+        <sys_update_name>sys_app_module_789a738f47dea5105dffc789826d439d</sys_update_name>
+        <sys_update_version display_value="sys_app_module_789a738f47dea5105dffc789826d439d">ab6c3fcf47dea5105dffc789826d43d9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 10:32:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

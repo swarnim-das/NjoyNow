@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Today's Interviews">d66ecb72471e65105dffc789826d43e9</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-23 12:31:46</sys_created_on>
+        <sys_id>5e6ecb72471e65105dffc789826d43e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d66ecb72471e65105dffc789826d43e9</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_report_users_groups_5e6ecb72471e65105dffc789826d43e9</sys_update_name>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-23 12:31:46</sys_updated_on>
+        <user_id display_value="Poojitha Gannapureddy">5d0cb2b6470661105dffc789826d432a</user_id>
+    </sys_report_users_groups>
+</record_update>

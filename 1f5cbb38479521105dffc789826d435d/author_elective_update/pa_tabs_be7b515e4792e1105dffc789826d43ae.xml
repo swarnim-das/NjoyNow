@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <pa_tabs action="DELETE">
+<canvas_page display_value="PA Njoyn Dashboard - New Tab">367bdd1e4792e1105dffc789826d4325</canvas_page>
+<name>Hiring Manager</name>
+<page display_value="PA Hiring Manager">7a7bdd1e4792e1105dffc789826d4323</page>
+<sys_class_name>pa_tabs</sys_class_name>
+<sys_created_by>poojitha.gannapureddy</sys_created_by>
+<sys_created_on>2023-04-21 14:52:40</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>be7b515e4792e1105dffc789826d43ae</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Hiring Manager</sys_name>
+<sys_overrides display_value=""/>
+<sys_package display_value="NjoyNow" source="x_317911_njoyn_ws">1f5cbb38479521105dffc789826d435d</sys_package>
+<sys_policy/>
+<sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+<sys_update_name>pa_tabs_be7b515e4792e1105dffc789826d43ae</sys_update_name>
+<sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+<sys_updated_on>2023-04-21 14:53:49</sys_updated_on>
+</pa_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</application>
+        <file_path/>
+        <instance_id>ca629802db0b2c10431011f8489619a2</instance_id>
+        <instance_name>dev108126</instance_name>
+        <name>pa_tabs_be7b515e4792e1105dffc789826d43ae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><pa_tabs action="INSERT_OR_UPDATE">
+<canvas_page display_value="PA Njoyn Dashboard - New Tab">367bdd1e4792e1105dffc789826d4325</canvas_page>
+<name>Hiring Manager</name>
+<page display_value="PA Hiring Manager">7a7bdd1e4792e1105dffc789826d4323</page>
+<sys_class_name>pa_tabs</sys_class_name>
+<sys_created_by>poojitha.gannapureddy</sys_created_by>
+<sys_created_on>2023-04-21 14:52:40</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>be7b515e4792e1105dffc789826d43ae</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Hiring Manager</sys_name>
+<sys_overrides display_value=""/>
+<sys_package display_value="NjoyNow" source="x_317911_njoyn_ws">1f5cbb38479521105dffc789826d435d</sys_package>
+<sys_policy/>
+<sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+<sys_update_name>pa_tabs_be7b515e4792e1105dffc789826d43ae</sys_update_name>
+<sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+<sys_updated_on>2023-04-21 14:53:49</sys_updated_on>
+</pa_tabs></record_update>]]></payload>
+        <payload_hash>843925430</payload_hash>
+        <record_name>Hiring Manager</record_name>
+        <reverted_from/>
+        <source>e91fb84947d621105dffc789826d4300</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-23 12:09:28</sys_created_on>
+        <sys_id>3f4943fa47da65105dffc789826d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187ae04e22f0000001</sys_recorded_at>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-23 12:09:28</sys_updated_on>
+        <type>Tab</type>
+        <update_guid>734943fa1ada6510d433200bcced89f0</update_guid>
+        <update_guid_history>734943fa1ada6510d433200bcced89f0:843925430,73bbd55ef192e11013357b1d5a93d938:1442567273,3e7b515ebc92e1104b2912931c1aa4b0:1215075155</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hiring Manager">247a0b3e47da65105dffc789826d43fd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-23 12:14:26</sys_created_on>
+        <sys_db_object display_value="" name="pa_tabs">pa_tabs</sys_db_object>
+        <sys_id>1198e3ff406d42f583ae8f72f461f0d1</sys_id>
+        <sys_metadata>be7b515e4792e1105dffc789826d43ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hiring Manager</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_scope_delete display_value="">2d85f3996bf442ecbdf54b79ebc81ae4</sys_scope_delete>
+        <sys_update_name>pa_tabs_be7b515e4792e1105dffc789826d43ae</sys_update_name>
+        <sys_update_version display_value="pa_tabs_be7b515e4792e1105dffc789826d43ae">3f4943fa47da65105dffc789826d43f0</sys_update_version>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-23 12:14:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

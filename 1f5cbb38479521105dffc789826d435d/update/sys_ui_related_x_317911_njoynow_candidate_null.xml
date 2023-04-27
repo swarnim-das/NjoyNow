@@ -2,17 +2,31 @@
     <sys_ui_related sys_domain="global" table="x_317911_njoynow_candidate" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Candidate - Default view" name="x_317911_njoynow_candidate" related_list="NULL" sys_domain="global" view="Default view">9e46c48547d521105dffc789826d43f4</list_id>
+            <list_id display_value="Candidate - Default view" name="x_317911_njoynow_candidate" related_list="NULL" sys_domain="global" view="Default view">42b5a4034792a5105dffc789826d43a7</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_317911_njoynow_job_application.candidate</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>pizza.dough</sys_created_by>
-            <sys_created_on>2023-02-26 18:25:15</sys_created_on>
-            <sys_id>1e46c48547d521105dffc789826d43f5</sys_id>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-23 18:53:13</sys_created_on>
+            <sys_id>8ab5a4034792a5105dffc789826d43a8</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>pizza.dough</sys_updated_by>
-            <sys_updated_on>2023-02-26 18:25:15</sys_updated_on>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-23 18:53:13</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Candidate - Default view" name="x_317911_njoynow_candidate" related_list="NULL" sys_domain="global" view="Default view">42b5a4034792a5105dffc789826d43a7</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_317911_njoynow_m2m_user_skill.sys_user</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-23 18:53:13</sys_created_on>
+            <sys_id>c2b5a4034792a5105dffc789826d43a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-23 18:53:13</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Candidate - Default view</calculated_name>
@@ -22,19 +36,19 @@
             <position/>
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
-            <sys_created_by>pizza.dough</sys_created_by>
-            <sys_created_on>2023-02-26 18:25:15</sys_created_on>
+            <sys_created_by>poojitha.gannapureddy</sys_created_by>
+            <sys_created_on>2023-04-23 18:53:13</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9e46c48547d521105dffc789826d43f4</sys_id>
+            <sys_id>42b5a4034792a5105dffc789826d43a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Candidate - Default view</sys_name>
             <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
             <sys_policy/>
             <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
             <sys_update_name>sys_ui_related_x_317911_njoynow_candidate_null</sys_update_name>
-            <sys_updated_by>pizza.dough</sys_updated_by>
-            <sys_updated_on>2023-02-26 18:25:15</sys_updated_on>
+            <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+            <sys_updated_on>2023-04-23 18:53:13</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

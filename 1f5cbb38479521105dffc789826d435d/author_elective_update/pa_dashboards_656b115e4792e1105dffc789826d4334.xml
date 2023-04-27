@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dashboards">
+    <pa_dashboards action="DELETE">
+        <active>true</active>
+        <breakdown_source/>
+        <color>#ffffff</color>
+        <disable_multiple_element>false</disable_multiple_element>
+        <group/>
+        <groups/>
+        <is_breakdown>false</is_breakdown>
+        <managed_breakdown/>
+        <managed_publisher/>
+        <name>Njoyn Dashboard</name>
+        <no_tabs>false</no_tabs>
+        <order>100</order>
+        <owner display_value="Poojitha Gannapureddy">5d0cb2b6470661105dffc789826d432a</owner>
+        <restrict_to_roles/>
+        <role_override>true</role_override>
+        <roles/>
+        <should_migrate_permissions>false</should_migrate_permissions>
+        <sys_class_name>pa_dashboards</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-21 14:52:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>656b115e4792e1105dffc789826d4334</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Njoyn Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>pa_dashboards_656b115e4792e1105dffc789826d4334</sys_update_name>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-23 11:32:22</sys_updated_on>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_dashboards>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</application>
+        <file_path/>
+        <instance_id>ca629802db0b2c10431011f8489619a2</instance_id>
+        <instance_name>dev108126</instance_name>
+        <name>pa_dashboards_656b115e4792e1105dffc789826d4334</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dashboards"><pa_dashboards action="INSERT_OR_UPDATE"><active>true</active><breakdown_source/><color>#ffffff</color><disable_multiple_element>false</disable_multiple_element><group/><groups/><is_breakdown>false</is_breakdown><managed_breakdown/><managed_publisher/><name>Njoyn Dashboard</name><no_tabs>false</no_tabs><order>100</order><owner display_value="Poojitha Gannapureddy">5d0cb2b6470661105dffc789826d432a</owner><restrict_to_roles/><role_override>true</role_override><roles/><should_migrate_permissions>false</should_migrate_permissions><sys_class_name>pa_dashboards</sys_class_name><sys_created_by>poojitha.gannapureddy</sys_created_by><sys_created_on>2023-04-21 14:52:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>656b115e4792e1105dffc789826d4334</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Njoyn Dashboard</sys_name><sys_overrides/><sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package><sys_policy/><sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope><sys_update_name>pa_dashboards_656b115e4792e1105dffc789826d4334</sys_update_name><sys_updated_by>poojitha.gannapureddy</sys_updated_by><sys_updated_on>2023-04-23 11:32:22</sys_updated_on><users/><visible_to>2</visible_to></pa_dashboards></record_update>]]></payload>
+        <payload_hash>1060449525</payload_hash>
+        <record_name>Njoyn Dashboard</record_name>
+        <reverted_from/>
+        <source>203a721f47c221105dffc789826d433b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-23 11:32:23</sys_created_on>
+        <sys_id>acd00b7247da65105dffc789826d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187ade2ed6b0000001</sys_recorded_at>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-23 11:32:23</sys_updated_on>
+        <type>Dashboard</type>
+        <update_guid>64d00b7239da651012347fa83f82659d</update_guid>
+        <update_guid_history>64d00b7239da651012347fa83f82659d:1060449525,7ec7fab6669a65102e231308edc96f70:-1321414105,fa7b515ea092e110013c8651d58d20b5:1702916645</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Njoyn Dashboard">138987fa47da65105dffc789826d43c8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-23 12:10:31</sys_created_on>
+        <sys_db_object display_value="" name="pa_dashboards">pa_dashboards</sys_db_object>
+        <sys_id>099092daaa9347b0809baee87f6c3411</sys_id>
+        <sys_metadata>656b115e4792e1105dffc789826d4334</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Njoyn Dashboard</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_scope_delete display_value="">2d85f3996bf442ecbdf54b79ebc81ae4</sys_scope_delete>
+        <sys_update_name>pa_dashboards_656b115e4792e1105dffc789826d4334</sys_update_name>
+        <sys_update_version display_value="pa_dashboards_656b115e4792e1105dffc789826d4334">acd00b7247da65105dffc789826d439d</sys_update_version>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-23 12:10:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

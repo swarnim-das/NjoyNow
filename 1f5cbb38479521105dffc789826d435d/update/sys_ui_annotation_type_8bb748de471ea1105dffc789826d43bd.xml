@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_annotation_type">
+    <sys_ui_annotation_type action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>GIF Background</name>
+        <omit_spacer>false</omit_spacer>
+        <style>margin-top: -10px;&#13;
+margin-left: 0;&#13;
+height: 100px;&#13;
+color: white;&#13;
+width: 100%;&#13;
+position: absolute;&#13;
+background-image: url(x_317911_njoynow.interviewform.gif)&#13;
+background-size: 100%;&#13;
+</style>
+        <sys_class_name>sys_ui_annotation_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-21 09:21:59</sys_created_on>
+        <sys_id>8bb748de471ea1105dffc789826d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GIF Background</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_ui_annotation_type_8bb748de471ea1105dffc789826d43bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-21 09:21:59</sys_updated_on>
+    </sys_ui_annotation_type>
+</record_update>

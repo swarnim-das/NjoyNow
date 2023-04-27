@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow read for records in x_317911_njoynow_interview, for users with role x_317911_njoynow.panel, and if the ACL script returns true.</description>
+        <name>x_317911_njoynow_interview</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[var panelGr = new GlideRecord("x_317911_njoynow_panel");
+panelGr.addQuery("sys_user=" + gs.getUserID() + "^x_317911_njoynow_interview=" + current.getUniqueValue());
+panelGr.setLimit(1);
+panelGr.query();
+if (panelGr.hasNext()) {
+    answer = true;
+} else {
+    answer = false;
+}
+answer;]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>poojitha.gannapureddy</sys_created_by>
+        <sys_created_on>2023-04-20 12:15:32</sys_created_on>
+        <sys_id>cafb23b5479a61105dffc789826d4344</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_317911_njoynow_interview</sys_name>
+        <sys_package display_value="NjoyNow" source="x_317911_njoynow">1f5cbb38479521105dffc789826d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NjoyNow">1f5cbb38479521105dffc789826d435d</sys_scope>
+        <sys_update_name>sys_security_acl_cafb23b5479a61105dffc789826d4344</sys_update_name>
+        <sys_updated_by>poojitha.gannapureddy</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:01:29</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
